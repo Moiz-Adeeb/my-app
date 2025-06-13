@@ -58,7 +58,7 @@ function App() {
 
   return (
     <>
-      <Router basename="/my-app">
+      <Router>
         <Routes>
           <Route
             exact
