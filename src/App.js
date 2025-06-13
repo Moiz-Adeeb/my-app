@@ -7,9 +7,9 @@ import { About } from "./MyComponents/About.js";
 import React, { useState, useEffect } from "react";
 import {
   BrowserRouter as Router,
-  Switch,
+  // Switch,
   Route,
-  Link,
+  // Link,
   Routes,
 } from "react-router-dom";
 
@@ -58,7 +58,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename="/my-app">
         <Routes>
           <Route
             exact
